@@ -1,181 +1,39 @@
-2024-12-02 19:42:58 - Starting EurekaApplication using Java 21.0.1 with PID 25420 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
-2024-12-02 19:42:58 - No active profile set, falling back to 1 default profile: "default"
-2024-12-02 19:43:00 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
-2024-12-02 19:43:00 - Tomcat initialized with port 8761 (http)
-2024-12-02 19:43:00 - Initializing ProtocolHandler ["http-nio-8761"]
-2024-12-02 19:43:00 - Starting service [Tomcat]
-2024-12-02 19:43:00 - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02 19:43:00 - Initializing Spring embedded WebApplicationContext
-2024-12-02 19:43:00 - Root WebApplicationContext: initialization completed in 2700 ms
-2024-12-02 19:43:01 - Filter 'eurekaVersionFilterRegistration' configured for use
-2024-12-02 19:43:02 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 19:43:02 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 19:43:02 - Using XML encoding codec XStreamXml
-2024-12-02 19:43:02 - Using XML decoding codec XStreamXml
-2024-12-02 19:43:03 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
-2024-12-02 19:43:03 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
-2024-12-02 19:43:04 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-02 19:43:04 - Setting initial instance status as: STARTING
-2024-12-02 19:43:04 - Initializing Eureka in region us-east-1
-2024-12-02 19:43:04 - Client configured to neither register nor query for data.
-2024-12-02 19:43:04 - Discovery Client initialized at timestamp 1733148784206 with initial instances count: 0
-2024-12-02 19:43:04 - Initializing ...
-2024-12-02 19:43:04 - Adding new peer nodes [http://localhost:8761/eureka/]
-2024-12-02 19:43:04 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 19:43:04 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 19:43:04 - Using XML encoding codec XStreamXml
-2024-12-02 19:43:04 - Using XML decoding codec XStreamXml
-2024-12-02 19:43:04 - Replica node URL:  http://localhost:8761/eureka/
-2024-12-02 19:43:04 - Finished initializing remote region registries. All known remote regions: []
-2024-12-02 19:43:04 - Initialized
-2024-12-02 19:43:04 - Exposing 1 endpoint beneath base path '/actuator'
-2024-12-02 19:43:04 - Registering application 02-EUREKA-SERVER with eureka with status UP
-2024-12-02 19:43:04 - Starting ProtocolHandler ["http-nio-8761"]
-2024-12-02 19:43:04 - isAws returned false
-2024-12-02 19:43:04 - Initialized server context
-2024-12-02 19:43:04 - Got 1 instances from neighboring DS node
-2024-12-02 19:43:04 - Renew threshold is: 1
-2024-12-02 19:43:04 - Changing status to UP
-2024-12-02 19:43:04 - Started Eureka Server
-2024-12-02 19:43:04 - Tomcat started on port 8761 (http) with context path '/'
-2024-12-02 19:43:04 - Updating port to 8761
-2024-12-02 19:43:04 - Started EurekaApplication in 8.068 seconds (process running for 8.926)
-2024-12-02 19:43:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02 19:43:54 - Initializing Servlet 'dispatcherServlet'
-2024-12-02 19:43:54 - Completed initialization in 3 ms
-2024-12-02 19:43:55 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status UP (replication=false)
-2024-12-02 19:43:55 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:43:56 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status UP (replication=true)
-2024-12-02 19:43:56 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:44:01 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=false)
-2024-12-02 19:44:01 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:44:01 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=true)
-2024-12-02 19:44:01 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:44:04 - Running the evict task with compensationTime 0ms
-2024-12-02 19:44:25 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:44:25 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:44:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:44:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:44:55 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:44:55 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:45:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:45:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:45:04 - Running the evict task with compensationTime 3ms
-2024-12-02 19:45:19 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=false)
-2024-12-02 19:45:19 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:45:19 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=true)
-2024-12-02 19:45:19 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:45:25 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:45:25 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:45:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:45:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:45:49 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 19:45:49 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 19:45:55 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:45:55 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:46:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:46:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:46:04 - Running the evict task with compensationTime 12ms
-2024-12-02 19:46:11 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status DOWN (replication=false)
-2024-12-02 19:46:11 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:12 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status DOWN (replication=true)
-2024-12-02 19:46:12 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:46:17 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status DOWN (replication=false)
-2024-12-02 19:46:17 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:17 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status DOWN (replication=true)
-2024-12-02 19:46:17 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:46:20 - Cancelled instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 (replication=false)
-2024-12-02 19:46:20 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:46:20 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:46:20 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status DOWN (replication=false)
-2024-12-02 19:46:20 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:20 - DS: Registry: cancel failed because Lease is not registered for: COURSE-MICROSERVICE/Maitri:course-microservice:9091
-2024-12-02 19:46:20 - Not Found (Cancel): COURSE-MICROSERVICE - Maitri:course-microservice:9091
-2024-12-02 19:46:20 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status DOWN (replication=true)
-2024-12-02 19:46:20 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:46:20 - The replication of task COURSE-MICROSERVICE/Maitri:course-microservice:9091:Cancel@localhost failed with response code 404
-2024-12-02 19:46:20 - COURSE-MICROSERVICE/Maitri:course-microservice:9091:Cancel@localhost: missing entry.
-2024-12-02 19:46:23 - Cancelled instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 (replication=false)
-2024-12-02 19:46:23 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:46:23 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:46:23 - DS: Registry: cancel failed because Lease is not registered for: COURSE-MICROSERVICE/Maitri:course-microservice:9093
-2024-12-02 19:46:23 - Not Found (Cancel): COURSE-MICROSERVICE - Maitri:course-microservice:9093
-2024-12-02 19:46:23 - The replication of task COURSE-MICROSERVICE/Maitri:course-microservice:9093:Cancel@localhost failed with response code 404
-2024-12-02 19:46:23 - COURSE-MICROSERVICE/Maitri:course-microservice:9093:Cancel@localhost: missing entry.
-2024-12-02 19:46:32 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status UP (replication=false)
-2024-12-02 19:46:32 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:33 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9091 with status UP (replication=true)
-2024-12-02 19:46:33 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:46:37 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=false)
-2024-12-02 19:46:37 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:37 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=true)
-2024-12-02 19:46:37 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:46:42 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=false)
-2024-12-02 19:46:42 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 19:46:42 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=true)
-2024-12-02 19:46:42 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 19:47:02 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:47:03 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:47:04 - Running the evict task with compensationTime 11ms
-2024-12-02 19:47:07 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:47:07 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:47:12 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 19:47:12 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 19:47:32 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:47:33 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:47:37 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:47:37 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:47:42 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 19:47:42 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 19:48:02 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:48:03 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:48:04 - Running the evict task with compensationTime 0ms
-2024-12-02 19:48:07 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:48:07 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:48:12 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 19:48:12 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 19:48:32 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication false
-2024-12-02 19:48:33 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9091, isReplication true
-2024-12-02 19:48:37 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 19:48:37 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 19:48:42 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 19:48:42 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:08:53 - Starting ApplicationTests using Java 21.0.1 with PID 21400 (started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
-2024-12-02 20:08:53 - No active profile set, falling back to 1 default profile: "default"
-2024-12-02 20:08:55 - BeanFactory id=b249604d-70d8-3c19-bc42-53caf5ee8031
-2024-12-02 20:08:56 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
-2024-12-02 20:08:56 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
-2024-12-02 20:08:57 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-02 20:08:58 - Setting initial instance status as: STARTING
-2024-12-02 20:08:58 - Initializing Eureka in region us-east-1
-2024-12-02 20:08:58 - Client configured to neither register nor query for data.
-2024-12-02 20:08:58 - Discovery Client initialized at timestamp 1733150338071 with initial instances count: 0
-2024-12-02 20:08:58 - Initializing ...
-2024-12-02 20:08:58 - Adding new peer nodes [http://localhost:8761/eureka/]
-2024-12-02 20:08:58 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:08:58 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:08:58 - Using XML encoding codec XStreamXml
-2024-12-02 20:08:58 - Using XML decoding codec XStreamXml
-2024-12-02 20:08:58 - Replica node URL:  http://localhost:8761/eureka/
-2024-12-02 20:08:58 - Finished initializing remote region registries. All known remote regions: []
-2024-12-02 20:08:58 - Initialized
-2024-12-02 20:08:58 - Exposing 1 endpoint beneath base path '/actuator'
-2024-12-02 20:08:58 - Registering application 02-EUREKA-SERVER with eureka with status UP
-2024-12-02 20:08:58 - isAws returned false
-2024-12-02 20:08:58 - Initialized server context
-2024-12-02 20:08:58 - Got 1 instances from neighboring DS node
-2024-12-02 20:08:58 - Renew threshold is: 1
-2024-12-02 20:08:58 - Changing status to UP
-2024-12-02 20:08:58 - Started Eureka Server
-2024-12-02 20:08:58 - Started ApplicationTests in 6.061 seconds (process running for 7.818)
-2024-12-02 20:08:59 - Unregistering application 02-EUREKA-SERVER with eureka with status DOWN
-2024-12-02 20:08:59 - Shutting down Eureka Server..
-2024-12-02 20:08:59 - Shutting down ...
-2024-12-02 20:08:59 - Shut down
-2024-12-02 20:08:59 - Eureka Service is now shutdown...
-2024-12-02 20:08:59 - Shutting down ...
-2024-12-02 20:08:59 - Shut down
-2024-12-02 20:08:59 - Cannot clean connections
+2024-12-03 10:05:57 - Starting ApplicationTests using Java 21.0.1 with PID 2928 (started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
+2024-12-03 10:05:57 - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 10:05:59 - BeanFactory id=b249604d-70d8-3c19-bc42-53caf5ee8031
+2024-12-03 10:06:00 - Constructed eureka meta-data healthcheckUrl: http://192.168.252.74:8761/actuator/health
+2024-12-03 10:06:00 - Constructed eureka meta-data statusPageUrl: http://192.168.252.74:8761/actuator/info
+2024-12-03 10:06:01 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-03 10:06:02 - Setting initial instance status as: STARTING
+2024-12-03 10:06:02 - Initializing Eureka in region us-east-1
+2024-12-03 10:06:02 - Client configured to neither register nor query for data.
+2024-12-03 10:06:02 - Discovery Client initialized at timestamp 1733200562194 with initial instances count: 0
+2024-12-03 10:06:02 - Initializing ...
+2024-12-03 10:06:02 - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-12-03 10:06:02 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 10:06:02 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 10:06:02 - Using XML encoding codec XStreamXml
+2024-12-03 10:06:02 - Using XML decoding codec XStreamXml
+2024-12-03 10:06:02 - Replica node URL:  http://localhost:8761/eureka/
+2024-12-03 10:06:02 - Finished initializing remote region registries. All known remote regions: []
+2024-12-03 10:06:02 - Initialized
+2024-12-03 10:06:03 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-03 10:06:03 - Registering application 02-EUREKA-SERVER with eureka with status UP
+2024-12-03 10:06:03 - Started ApplicationTests in 6.906 seconds (process running for 9.511)
+2024-12-03 10:06:03 - isAws returned false
+2024-12-03 10:06:03 - Initialized server context
+2024-12-03 10:06:03 - Got 1 instances from neighboring DS node
+2024-12-03 10:06:03 - Renew threshold is: 1
+2024-12-03 10:06:03 - Changing status to UP
+2024-12-03 10:06:03 - Started Eureka Server
+2024-12-03 10:06:04 - Unregistering application 02-EUREKA-SERVER with eureka with status DOWN
+2024-12-03 10:06:04 - Shutting down Eureka Server..
+2024-12-03 10:06:04 - Shutting down ...
+2024-12-03 10:06:04 - Shut down
+2024-12-03 10:06:04 - Eureka Service is now shutdown...
+2024-12-03 10:06:04 - Shutting down ...
+2024-12-03 10:06:04 - Shut down
+2024-12-03 10:06:04 - Cannot clean connections
 java.lang.IllegalStateException: Client instance has been closed.
 	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
 	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
@@ -188,242 +46,179 @@ java.lang.IllegalStateException: Client instance has been closed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-2024-12-02 20:09:00 - Shutting down DiscoveryClient ...
-2024-12-02 20:09:00 - Completed shut down of DiscoveryClient
-2024-12-02 20:09:53 - Starting EurekaApplication using Java 21.0.1 with PID 22372 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
-2024-12-02 20:09:53 - No active profile set, falling back to 1 default profile: "default"
-2024-12-02 20:09:55 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
-2024-12-02 20:09:56 - Tomcat initialized with port 8761 (http)
-2024-12-02 20:09:56 - Initializing ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:09:56 - Starting service [Tomcat]
-2024-12-02 20:09:56 - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02 20:09:56 - Initializing Spring embedded WebApplicationContext
-2024-12-02 20:09:56 - Root WebApplicationContext: initialization completed in 2563 ms
-2024-12-02 20:09:56 - Filter 'eurekaVersionFilterRegistration' configured for use
-2024-12-02 20:09:57 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:09:57 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:09:58 - Using XML encoding codec XStreamXml
-2024-12-02 20:09:58 - Using XML decoding codec XStreamXml
-2024-12-02 20:09:58 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
-2024-12-02 20:09:58 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
-2024-12-02 20:09:59 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-02 20:09:59 - Setting initial instance status as: STARTING
-2024-12-02 20:09:59 - Initializing Eureka in region us-east-1
-2024-12-02 20:09:59 - Client configured to neither register nor query for data.
-2024-12-02 20:09:59 - Discovery Client initialized at timestamp 1733150399315 with initial instances count: 0
-2024-12-02 20:09:59 - Initializing ...
-2024-12-02 20:09:59 - Adding new peer nodes [http://localhost:8761/eureka/]
-2024-12-02 20:09:59 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:09:59 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:09:59 - Using XML encoding codec XStreamXml
-2024-12-02 20:09:59 - Using XML decoding codec XStreamXml
-2024-12-02 20:09:59 - Replica node URL:  http://localhost:8761/eureka/
-2024-12-02 20:09:59 - Finished initializing remote region registries. All known remote regions: []
-2024-12-02 20:09:59 - Initialized
-2024-12-02 20:09:59 - Exposing 1 endpoint beneath base path '/actuator'
-2024-12-02 20:09:59 - Registering application 02-EUREKA-SERVER with eureka with status UP
-2024-12-02 20:09:59 - Starting ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:09:59 - isAws returned false
-2024-12-02 20:09:59 - Initialized server context
-2024-12-02 20:09:59 - Got 1 instances from neighboring DS node
-2024-12-02 20:09:59 - Renew threshold is: 1
-2024-12-02 20:09:59 - Changing status to UP
-2024-12-02 20:09:59 - Started Eureka Server
-2024-12-02 20:09:59 - Tomcat started on port 8761 (http) with context path '/'
-2024-12-02 20:09:59 - Updating port to 8761
-2024-12-02 20:09:59 - Started EurekaApplication in 7.252 seconds (process running for 8.161)
-2024-12-02 20:10:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02 20:10:10 - Initializing Servlet 'dispatcherServlet'
-2024-12-02 20:10:10 - Completed initialization in 1 ms
-2024-12-02 20:10:10 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=false)
-2024-12-02 20:10:10 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:10:11 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=true)
-2024-12-02 20:10:11 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:10:27 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=false)
-2024-12-02 20:10:27 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:10:27 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=true)
-2024-12-02 20:10:27 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:10:40 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:10:40 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:10:57 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:10:57 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:10:59 - Running the evict task with compensationTime 0ms
-2024-12-02 20:11:10 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:11:10 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:20:33 - Starting EurekaApplication using Java 21.0.1 with PID 18252 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
-2024-12-02 20:20:33 - No active profile set, falling back to 1 default profile: "default"
-2024-12-02 20:20:34 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
-2024-12-02 20:20:35 - Tomcat initialized with port 8761 (http)
-2024-12-02 20:20:35 - Initializing ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:20:35 - Starting service [Tomcat]
-2024-12-02 20:20:35 - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02 20:20:35 - Initializing Spring embedded WebApplicationContext
-2024-12-02 20:20:35 - Root WebApplicationContext: initialization completed in 2405 ms
-2024-12-02 20:20:36 - Filter 'eurekaVersionFilterRegistration' configured for use
-2024-12-02 20:20:37 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:20:37 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:20:37 - Using XML encoding codec XStreamXml
-2024-12-02 20:20:37 - Using XML decoding codec XStreamXml
-2024-12-02 20:20:38 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
-2024-12-02 20:20:38 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
-2024-12-02 20:20:38 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-02 20:20:38 - Setting initial instance status as: STARTING
-2024-12-02 20:20:38 - Initializing Eureka in region us-east-1
-2024-12-02 20:20:38 - Client configured to neither register nor query for data.
-2024-12-02 20:20:38 - Discovery Client initialized at timestamp 1733151038793 with initial instances count: 0
-2024-12-02 20:20:38 - Initializing ...
-2024-12-02 20:20:38 - Adding new peer nodes [http://localhost:8761/eureka/]
-2024-12-02 20:20:39 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:20:39 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:20:39 - Using XML encoding codec XStreamXml
-2024-12-02 20:20:39 - Using XML decoding codec XStreamXml
-2024-12-02 20:20:39 - Replica node URL:  http://localhost:8761/eureka/
-2024-12-02 20:20:39 - Finished initializing remote region registries. All known remote regions: []
-2024-12-02 20:20:39 - Initialized
-2024-12-02 20:20:39 - Exposing 1 endpoint beneath base path '/actuator'
-2024-12-02 20:20:39 - Registering application 02-EUREKA-SERVER with eureka with status UP
-2024-12-02 20:20:39 - Starting ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:20:39 - isAws returned false
-2024-12-02 20:20:39 - Initialized server context
-2024-12-02 20:20:39 - Got 1 instances from neighboring DS node
-2024-12-02 20:20:39 - Renew threshold is: 1
-2024-12-02 20:20:39 - Changing status to UP
-2024-12-02 20:20:39 - Started Eureka Server
-2024-12-02 20:20:39 - Tomcat started on port 8761 (http) with context path '/'
-2024-12-02 20:20:39 - Updating port to 8761
-2024-12-02 20:20:39 - Started EurekaApplication in 7.261 seconds (process running for 8.209)
-2024-12-02 20:21:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02 20:21:00 - Initializing Servlet 'dispatcherServlet'
-2024-12-02 20:21:00 - Completed initialization in 2 ms
-2024-12-02 20:21:01 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=false)
-2024-12-02 20:21:01 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:21:01 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=true)
-2024-12-02 20:21:01 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:21:18 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=false)
-2024-12-02 20:21:18 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:21:18 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=true)
-2024-12-02 20:21:18 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:21:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:21:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:21:39 - Running the evict task with compensationTime 0ms
-2024-12-02 20:21:47 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:21:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:22:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:22:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:22:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:22:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:22:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:22:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:22:39 - Running the evict task with compensationTime 9ms
-2024-12-02 20:22:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:22:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:23:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:23:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:23:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:23:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:23:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:23:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:23:39 - Running the evict task with compensationTime 13ms
-2024-12-02 20:23:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:23:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:24:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:24:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:24:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:24:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:24:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:24:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:24:39 - Running the evict task with compensationTime 0ms
-2024-12-02 20:24:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:24:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:25:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:25:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:25:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:25:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:25:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:25:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:25:39 - Running the evict task with compensationTime 0ms
-2024-12-02 20:25:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:25:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:26:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:26:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:26:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:26:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:26:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:26:31 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:26:39 - Running the evict task with compensationTime 1ms
-2024-12-02 20:26:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:26:48 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:27:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:27:01 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:27:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:27:18 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:28:49 - Starting EurekaApplication using Java 21.0.1 with PID 10772 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
-2024-12-02 20:28:49 - No active profile set, falling back to 1 default profile: "default"
-2024-12-02 20:28:51 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
-2024-12-02 20:28:51 - Tomcat initialized with port 8761 (http)
-2024-12-02 20:28:51 - Initializing ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:28:51 - Starting service [Tomcat]
-2024-12-02 20:28:51 - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02 20:28:51 - Initializing Spring embedded WebApplicationContext
-2024-12-02 20:28:51 - Root WebApplicationContext: initialization completed in 2551 ms
-2024-12-02 20:28:52 - Filter 'eurekaVersionFilterRegistration' configured for use
-2024-12-02 20:28:53 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:28:53 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:28:53 - Using XML encoding codec XStreamXml
-2024-12-02 20:28:53 - Using XML decoding codec XStreamXml
-2024-12-02 20:28:54 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
-2024-12-02 20:28:54 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
-2024-12-02 20:28:55 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-02 20:28:55 - Setting initial instance status as: STARTING
-2024-12-02 20:28:55 - Initializing Eureka in region us-east-1
-2024-12-02 20:28:55 - Client configured to neither register nor query for data.
-2024-12-02 20:28:55 - Discovery Client initialized at timestamp 1733151535178 with initial instances count: 0
-2024-12-02 20:28:55 - Initializing ...
-2024-12-02 20:28:55 - Adding new peer nodes [http://localhost:8761/eureka/]
-2024-12-02 20:28:55 - Using JSON encoding codec LegacyJacksonJson
-2024-12-02 20:28:55 - Using JSON decoding codec LegacyJacksonJson
-2024-12-02 20:28:55 - Using XML encoding codec XStreamXml
-2024-12-02 20:28:55 - Using XML decoding codec XStreamXml
-2024-12-02 20:28:55 - Replica node URL:  http://localhost:8761/eureka/
-2024-12-02 20:28:55 - Finished initializing remote region registries. All known remote regions: []
-2024-12-02 20:28:55 - Initialized
-2024-12-02 20:28:55 - Exposing 1 endpoint beneath base path '/actuator'
-2024-12-02 20:28:55 - Registering application 02-EUREKA-SERVER with eureka with status UP
-2024-12-02 20:28:55 - Starting ProtocolHandler ["http-nio-8761"]
-2024-12-02 20:28:55 - isAws returned false
-2024-12-02 20:28:55 - Initialized server context
-2024-12-02 20:28:55 - Got 1 instances from neighboring DS node
-2024-12-02 20:28:55 - Renew threshold is: 1
-2024-12-02 20:28:55 - Changing status to UP
-2024-12-02 20:28:55 - Started Eureka Server
-2024-12-02 20:28:55 - Tomcat started on port 8761 (http) with context path '/'
-2024-12-02 20:28:55 - Updating port to 8761
-2024-12-02 20:28:55 - Started EurekaApplication in 7.463 seconds (process running for 8.368)
-2024-12-02 20:29:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02 20:29:22 - Initializing Servlet 'dispatcherServlet'
-2024-12-02 20:29:22 - Completed initialization in 1 ms
-2024-12-02 20:29:22 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=false)
-2024-12-02 20:29:22 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:29:23 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9093 with status UP (replication=true)
-2024-12-02 20:29:23 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:29:52 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:29:52 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:29:55 - Running the evict task with compensationTime 0ms
-2024-12-02 20:30:22 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:30:22 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:30:40 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=false)
-2024-12-02 20:30:40 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
-2024-12-02 20:30:40 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:8084 with status UP (replication=true)
-2024-12-02 20:30:40 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
-2024-12-02 20:30:52 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:30:53 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:30:55 - Running the evict task with compensationTime 0ms
-2024-12-02 20:31:10 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:31:10 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:31:22 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:31:23 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:31:40 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication false
-2024-12-02 20:31:40 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:8084, isReplication true
-2024-12-02 20:31:52 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication false
-2024-12-02 20:31:53 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9093, isReplication true
-2024-12-02 20:31:55 - Running the evict task with compensationTime 6ms
+2024-12-03 10:06:04 - Shutting down DiscoveryClient ...
+2024-12-03 10:06:04 - Completed shut down of DiscoveryClient
+2024-12-03 11:02:43 - Starting EurekaApplication using Java 21.0.1 with PID 23828 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
+2024-12-03 11:02:43 - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 11:02:46 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
+2024-12-03 11:02:46 - Tomcat initialized with port 8761 (http)
+2024-12-03 11:02:46 - Initializing ProtocolHandler ["http-nio-8761"]
+2024-12-03 11:02:46 - Starting service [Tomcat]
+2024-12-03 11:02:46 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03 11:02:47 - Initializing Spring embedded WebApplicationContext
+2024-12-03 11:02:47 - Root WebApplicationContext: initialization completed in 2912 ms
+2024-12-03 11:02:47 - Filter 'eurekaVersionFilterRegistration' configured for use
+2024-12-03 11:02:48 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 11:02:48 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 11:02:49 - Using XML encoding codec XStreamXml
+2024-12-03 11:02:49 - Using XML decoding codec XStreamXml
+2024-12-03 11:02:50 - Constructed eureka meta-data healthcheckUrl: http://192.168.252.74:8761/actuator/health
+2024-12-03 11:02:50 - Constructed eureka meta-data statusPageUrl: http://192.168.252.74:8761/actuator/info
+2024-12-03 11:02:50 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-03 11:02:50 - Setting initial instance status as: STARTING
+2024-12-03 11:02:50 - Initializing Eureka in region us-east-1
+2024-12-03 11:02:50 - Client configured to neither register nor query for data.
+2024-12-03 11:02:50 - Discovery Client initialized at timestamp 1733203970708 with initial instances count: 0
+2024-12-03 11:02:50 - Initializing ...
+2024-12-03 11:02:50 - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-12-03 11:02:51 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 11:02:51 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 11:02:51 - Using XML encoding codec XStreamXml
+2024-12-03 11:02:51 - Using XML decoding codec XStreamXml
+2024-12-03 11:02:51 - Replica node URL:  http://localhost:8761/eureka/
+2024-12-03 11:02:51 - Finished initializing remote region registries. All known remote regions: []
+2024-12-03 11:02:51 - Initialized
+2024-12-03 11:02:51 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-03 11:02:51 - Registering application 02-EUREKA-SERVER with eureka with status UP
+2024-12-03 11:02:51 - Starting ProtocolHandler ["http-nio-8761"]
+2024-12-03 11:02:51 - isAws returned false
+2024-12-03 11:02:51 - Initialized server context
+2024-12-03 11:02:51 - Got 1 instances from neighboring DS node
+2024-12-03 11:02:51 - Renew threshold is: 1
+2024-12-03 11:02:51 - Changing status to UP
+2024-12-03 11:02:51 - Started Eureka Server
+2024-12-03 11:02:51 - Tomcat started on port 8761 (http) with context path '/'
+2024-12-03 11:02:51 - Updating port to 8761
+2024-12-03 11:02:51 - Started EurekaApplication in 8.894 seconds (process running for 9.999)
+2024-12-03 11:03:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-03 11:03:12 - Initializing Servlet 'dispatcherServlet'
+2024-12-03 11:03:12 - Completed initialization in 2 ms
+2024-12-03 11:03:13 - Registered instance STUDENT-MICROSERVICE/192.168.252.74:student-microservice:8084 with status UP (replication=false)
+2024-12-03 11:03:13 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-03 11:03:13 - Registered instance STUDENT-MICROSERVICE/192.168.252.74:student-microservice:8084 with status UP (replication=true)
+2024-12-03 11:03:13 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-03 11:03:43 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:03:43 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:03:51 - Running the evict task with compensationTime 0ms
+2024-12-03 11:40:06 - Starting EurekaApplication using Java 21.0.1 with PID 15112 (D:\Training\Synechron\Workspace\03-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
+2024-12-03 11:40:06 - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 11:40:08 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
+2024-12-03 11:40:09 - Tomcat initialized with port 8761 (http)
+2024-12-03 11:40:09 - Initializing ProtocolHandler ["http-nio-8761"]
+2024-12-03 11:40:09 - Starting service [Tomcat]
+2024-12-03 11:40:09 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03 11:40:09 - Initializing Spring embedded WebApplicationContext
+2024-12-03 11:40:09 - Root WebApplicationContext: initialization completed in 2631 ms
+2024-12-03 11:40:10 - Filter 'eurekaVersionFilterRegistration' configured for use
+2024-12-03 11:40:11 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 11:40:11 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 11:40:11 - Using XML encoding codec XStreamXml
+2024-12-03 11:40:11 - Using XML decoding codec XStreamXml
+2024-12-03 11:40:12 - Constructed eureka meta-data healthcheckUrl: http://192.168.252.74:8761/actuator/health
+2024-12-03 11:40:12 - Constructed eureka meta-data statusPageUrl: http://192.168.252.74:8761/actuator/info
+2024-12-03 11:40:12 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-03 11:40:12 - Setting initial instance status as: STARTING
+2024-12-03 11:40:13 - Initializing Eureka in region us-east-1
+2024-12-03 11:40:13 - Client configured to neither register nor query for data.
+2024-12-03 11:40:13 - Discovery Client initialized at timestamp 1733206213022 with initial instances count: 0
+2024-12-03 11:40:13 - Initializing ...
+2024-12-03 11:40:13 - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-12-03 11:40:13 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 11:40:13 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 11:40:13 - Using XML encoding codec XStreamXml
+2024-12-03 11:40:13 - Using XML decoding codec XStreamXml
+2024-12-03 11:40:13 - Replica node URL:  http://localhost:8761/eureka/
+2024-12-03 11:40:13 - Finished initializing remote region registries. All known remote regions: []
+2024-12-03 11:40:13 - Initialized
+2024-12-03 11:40:13 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-03 11:40:13 - Registering application 02-EUREKA-SERVER with eureka with status UP
+2024-12-03 11:40:13 - Starting ProtocolHandler ["http-nio-8761"]
+2024-12-03 11:40:13 - isAws returned false
+2024-12-03 11:40:13 - Initialized server context
+2024-12-03 11:40:13 - Got 1 instances from neighboring DS node
+2024-12-03 11:40:13 - Renew threshold is: 1
+2024-12-03 11:40:13 - Changing status to UP
+2024-12-03 11:40:13 - Started Eureka Server
+2024-12-03 11:40:13 - Tomcat started on port 8761 (http) with context path '/'
+2024-12-03 11:40:13 - Updating port to 8761
+2024-12-03 11:40:13 - Started EurekaApplication in 7.598 seconds (process running for 8.489)
+2024-12-03 11:40:33 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-03 11:40:34 - Initializing Servlet 'dispatcherServlet'
+2024-12-03 11:40:34 - Completed initialization in 3 ms
+2024-12-03 11:40:34 - Registered instance STUDENT-MICROSERVICE/192.168.252.74:student-microservice:8084 with status UP (replication=false)
+2024-12-03 11:40:34 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-03 11:40:35 - Registered instance STUDENT-MICROSERVICE/192.168.252.74:student-microservice:8084 with status UP (replication=true)
+2024-12-03 11:40:35 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-03 11:41:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:41:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:41:13 - Running the evict task with compensationTime 0ms
+2024-12-03 11:41:34 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:41:34 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:42:00 - Registered instance COURSE-MICROSERVICE/192.168.252.74:course-microservice:9093 with status UP (replication=false)
+2024-12-03 11:42:00 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
+2024-12-03 11:42:00 - Registered instance COURSE-MICROSERVICE/192.168.252.74:course-microservice:9093 with status UP (replication=true)
+2024-12-03 11:42:00 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
+2024-12-03 11:42:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:42:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:42:13 - Running the evict task with compensationTime 10ms
+2024-12-03 11:42:29 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication false
+2024-12-03 11:42:30 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication true
+2024-12-03 11:42:34 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:42:34 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:42:59 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication false
+2024-12-03 11:43:00 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication true
+2024-12-03 11:43:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication false
+2024-12-03 11:43:04 - renewed STUDENT-MICROSERVICE, serverId 192.168.252.74:student-microservice:8084, isReplication true
+2024-12-03 11:43:13 - Running the evict task with compensationTime 5ms
+2024-12-03 11:43:30 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication false
+2024-12-03 11:43:30 - renewed COURSE-MICROSERVICE, serverId 192.168.252.74:course-microservice:9093, isReplication true
+2024-12-03 12:37:02 - Starting ApplicationTests using Java 21.0.1 with PID 17464 (started by Makarand in D:\Training\Synechron\Workspace\03-eureka-server)
+2024-12-03 12:37:02 - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 12:37:04 - BeanFactory id=b249604d-70d8-3c19-bc42-53caf5ee8031
+2024-12-03 12:37:05 - Constructed eureka meta-data healthcheckUrl: http://192.168.252.74:8761/actuator/health
+2024-12-03 12:37:05 - Constructed eureka meta-data statusPageUrl: http://192.168.252.74:8761/actuator/info
+2024-12-03 12:37:06 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-03 12:37:06 - Setting initial instance status as: STARTING
+2024-12-03 12:37:06 - Initializing Eureka in region us-east-1
+2024-12-03 12:37:06 - Client configured to neither register nor query for data.
+2024-12-03 12:37:06 - Discovery Client initialized at timestamp 1733209626824 with initial instances count: 0
+2024-12-03 12:37:06 - Initializing ...
+2024-12-03 12:37:06 - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-12-03 12:37:07 - Using JSON encoding codec LegacyJacksonJson
+2024-12-03 12:37:07 - Using JSON decoding codec LegacyJacksonJson
+2024-12-03 12:37:07 - Using XML encoding codec XStreamXml
+2024-12-03 12:37:07 - Using XML decoding codec XStreamXml
+2024-12-03 12:37:07 - Replica node URL:  http://localhost:8761/eureka/
+2024-12-03 12:37:07 - Finished initializing remote region registries. All known remote regions: []
+2024-12-03 12:37:07 - Initialized
+2024-12-03 12:37:07 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-03 12:37:07 - Registering application 02-EUREKA-SERVER with eureka with status UP
+2024-12-03 12:37:07 - isAws returned false
+2024-12-03 12:37:07 - Initialized server context
+2024-12-03 12:37:07 - Got 1 instances from neighboring DS node
+2024-12-03 12:37:07 - Renew threshold is: 1
+2024-12-03 12:37:07 - Changing status to UP
+2024-12-03 12:37:07 - Started Eureka Server
+2024-12-03 12:37:07 - Started ApplicationTests in 5.842 seconds (process running for 7.699)
+2024-12-03 12:37:08 - Unregistering application 02-EUREKA-SERVER with eureka with status DOWN
+2024-12-03 12:37:08 - Shutting down Eureka Server..
+2024-12-03 12:37:08 - Shutting down ...
+2024-12-03 12:37:08 - Shut down
+2024-12-03 12:37:08 - Eureka Service is now shutdown...
+2024-12-03 12:37:08 - Shutting down ...
+2024-12-03 12:37:08 - Shut down
+2024-12-03 12:37:08 - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-03 12:37:08 - Shutting down DiscoveryClient ...
+2024-12-03 12:37:08 - Completed shut down of DiscoveryClient

@@ -24,12 +24,13 @@ public class StudentRestController {
     @Autowired
     private CourseServiceProxy proxy;
 	
-	// http://localhost:9095/students/101
+	// http://localhost:8084/students/1
 	@GetMapping("/students/{studentId}")
 	public Student getStudentById(@PathVariable("studentId") Integer studentId) throws StudentNotFoundException 
 	{
 		Student student = studentService.findStudentById(studentId);
-        List<Course> courses = proxy.getCoursesByStudentId(studentId);
+        // giving call to external service
+		List<Course> courses = proxy.getCoursesByStudentId(studentId);
 		student.setCourse(courses);
 		return student;
 	}

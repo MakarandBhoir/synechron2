@@ -12,5 +12,7 @@ import com.synechron.model.Course;
 @FeignClient(name = "course-microservice", path = "/courses")
 public interface CourseServiceProxy {
 	@GetMapping(path="student/{stuId}")
+	
+	// http://course-microservice/courses/student/1
 	public List<Course> getCoursesByStudentId(@PathVariable("stuId") int studentId);
 }

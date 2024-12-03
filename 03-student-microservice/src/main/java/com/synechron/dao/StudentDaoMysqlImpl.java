@@ -12,10 +12,9 @@ import com.synechron.exceptions.StudentNotFoundException;
 import com.synechron.model.Address;
 import com.synechron.model.Course;
 import com.synechron.model.Student;
-
 @Repository
-@Profile("dev")
-public class StudentDaoH2Impl implements StudentDao {
+@Profile("prod")
+public class StudentDaoMysqlImpl implements StudentDao{
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 

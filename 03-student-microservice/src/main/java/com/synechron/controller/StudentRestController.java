@@ -16,6 +16,9 @@ import com.synechron.model.Course;
 import com.synechron.model.Student;
 import com.synechron.service.StudentService;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
+
 @RestController
 public class StudentRestController {
 	@Autowired
@@ -26,12 +29,21 @@ public class StudentRestController {
 	
 	// http://localhost:8084/students/1
 	@GetMapping("/students/{studentId}")
+	//@Retry(name = "default", fallbackMethod = "fallbackMethod")
+	@CircuitBreaker(name = "courseServiceCircuitBreaker", fallbackMethod = "fallbackMethod")
 	public Student getStudentById(@PathVariable("studentId") Integer studentId) throws StudentNotFoundException 
 	{
 		Student student = studentService.findStudentById(studentId);
         // giving call to external service
+		System.out.println("<------- Calling Course Service ------>");
 		List<Course> courses = proxy.getCoursesByStudentId(studentId);
 		student.setCourse(courses);
+		return student;
+	}
+	
+	public Student fallbackMethod(Integer studentId, Exception e) throws StudentNotFoundException {
+		Student student = studentService.findStudentById(studentId);
+		student.setCourse(null);
 		return student;
 	}
 }

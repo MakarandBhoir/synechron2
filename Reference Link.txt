@@ -1,0 +1,7 @@
+Docker Basics on YouTube (Programming with Mosh) - https://www.youtube.com/watch?v=pTFZFxd4hOI 
+
+Jenkins (Automation step by step) - https://www.youtube.com/watch?v=89yWXXIOisk&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG
+
+Spring Boot (Java Brains) - https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+
+Spring Security Concepts Only (Java Brains) - https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE
